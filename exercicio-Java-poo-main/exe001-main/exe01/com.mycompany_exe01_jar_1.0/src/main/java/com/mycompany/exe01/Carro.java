@@ -42,7 +42,7 @@ public class Carro {
     public String getCombustivel()      {return combustivel;}
     public double getQuilometragem()    {return quilometragem;
     }
-    
+ 
     /*Metodos Setters*/
     public void setValor(double valor)                      {this.valor=valor;}
     public void setCor(String cor)                          {this.cor=cor;}
@@ -66,5 +66,5 @@ public class Carro {
         System.out.println("Combustível: " + combustivel);
         System.out.println("Km:          " + formato.format(quilometragem) + " km");
         System.out.println("================================\n");
-    }
+}  
 }    
